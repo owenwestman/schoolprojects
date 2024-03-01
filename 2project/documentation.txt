@@ -1,0 +1,19 @@
+Made by Owen Eastman, Feb 8 2024
+
+states.py is a program that returns the respective capital when a state is entered
+
+The program will check if the user enters a valid state and respond accordingly
+
+variable dictionary:
+	capitals = hashtable with states and capitals
+	ustate = lowercase user input
+
+process order:
+
+try except statement that either prints the result if the state is valid or alerts the user and tries again if it is not valid
+
+requirements: 
+O(1)
+
+very little system requirements
+

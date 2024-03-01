@@ -1,0 +1,42 @@
+Made by Owen Eastman, Jan 29 2024
+
+average.py is a program to average numbers
+
+the user can input an amount of numbers to average, and the numbers that are being averaged
+
+the program checks if the user input is valid
+
+variable dictionary:
+	amount = amount of numbers to average
+	nums = short for numbers, list of numbers that the user inputs
+	tval = short for total value, total value to divide
+	cval = short for checked value, assigned locally to avoid problems with variable privateness
+
+process order:
+
+get amount to average
+assure that amount is a digit
+assure that amount is nonzero
+loop to append input to a list containing values
+	assure that appended input is a float
+loop to add values from the list to a final value
+divide final value by length of list
+
+further depth of documentation is in the program as comments
+
+Requirements:
+Able to reliably average a group of numbers
+
+
+Testing:
+O(n)
+
+using Intel Xeon (2) @ 2.200GHz, program is limited to accepting around 30000 numbers per second
+previous measurement errors were due to a spotty ssh connection
+
+no notable performance decreases while doing math
+
+does not accept input that would break the program, meaning it will not break
+
+python puts numbers in scientific notation beyond a certain point, but there's nothing I can do about that
+
