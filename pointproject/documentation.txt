@@ -1,0 +1,3 @@
+Made by Owen Eastman, Feb 15
+
+fastfood.py is a program that does a lot of things to a list. it has no other function, and it does not take inputs.
