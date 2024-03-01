@@ -1,1 +1,1 @@
-repository of projects I've done for school
+repository of projects I've done for school 
