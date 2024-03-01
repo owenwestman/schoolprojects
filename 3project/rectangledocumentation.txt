@@ -1,0 +1,5 @@
+made by Owen Eastman, Feb 27 2024
+
+rectangle.py takes a user input (rectangle width and length, unit independent) and returns the perimeter of the given rectangle
+there is basic error handling on the user input to make sure that the input is valid
+the output is unit independent, in the same unit that the given inputs were in

@@ -1,0 +1,5 @@
+made by Owen Eastman, Feb 27 2024
+
+circle.py takes a user input (diameter of a circle, unit independent) and returns the area and circumfrence of the given circle
+there is basic error handling on the user input to make sure that the input is valid
+the output is unit independent, in the same unit that the given input was in
