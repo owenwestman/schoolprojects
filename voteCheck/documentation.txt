@@ -1,0 +1,18 @@
+made by Owen Eastman, March 7 2024
+
+votecheck.py is a program that allows users to vote for either George Washington or Abraham Lincoln
+it only allows adults to vote
+
+the program checks all inputs to make sure they are contextually valid
+
+when enabled, the program can write vote data to a votes.json
+it will create votes.json if it does not exist
+
+variables:
+    useStorage: boolean to toggle vote storage 
+    file: raw votes.json
+    data: dumped votes.json into python dictionary
+    sampleDict: basic dictionary to use 
+    sampleObject: jsonified sampleDict
+    voterAge: age of voter
+    voterChoice: vote casted by user
