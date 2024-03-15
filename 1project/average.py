@@ -35,4 +35,4 @@ for j in range(amount):
 
 # divide by amount and return
 tval = tval/len(nums)
-print(tval)
+print(f"The average is: {tval}")
