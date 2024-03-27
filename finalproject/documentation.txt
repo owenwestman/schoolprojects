@@ -1,0 +1,5 @@
+made by Owen Eastman, March 27 2024
+
+grades.py picks a random int between 0 and 100, and prints a letter grade according to the cony grade scale
+
+it takes no input, so output cannot be influenced by user
